@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#login:hover{
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.5);
+
+}
+
+
+#signup:hover {
+    cursor: pointer;
+    
+  }
+  .nav:hover {
+    color: #7e56d8; 
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+  }
